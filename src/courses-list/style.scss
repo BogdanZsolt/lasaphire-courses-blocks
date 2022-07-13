@@ -1,0 +1,18 @@
+.wp-block-ls-courses-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+
+	li {
+		list-style: none;
+	}
+
+	&.is-grid {
+		flex-direction: row;
+		gap: 1rem;
+	}
+}
+

@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ls/courses-list",
+	"version": "0.1.0",
+	"title": "Lasaphire Courses list",
+	"category": "la-saphire",
+	"description": "La Saphire course listing block.",
+	"supports": {
+		"align": true,
+		"html": false
+	},
+	"attributes": {
+		"displayFeaturedImage": {
+			"type": "boolean",
+			"default": false
+		},
+		"order": {
+			"type": "string",
+			"default": "asc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "title"
+		},
+		"categories": {
+			"type": "array",
+			"items": {
+				"type": "object"
+			}
+		},
+		"featuredImageSizeSlug": {
+			"type": "string",
+			"default": "medium"
+		},
+		"addLinkToFeaturedImage": {
+			"type": "boolean",
+			"default": false
+		},
+		"displayPostContent": {
+			"type": "boolean",
+			"default": false
+		},
+		"postLayout": {
+			"type": "string",
+			"default": "grid"
+		},
+		"columns": {
+			"type": "number",
+			"default": 3
+		},
+		"featuredImageSizeWidth": {
+			"type": "number",
+			"default": null
+		},
+		"featuredImageSizeHeight": {
+			"type": "number",
+			"default": null
+		},
+		"isSlide": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"textdomain": "lasaphire-courses-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

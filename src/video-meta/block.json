@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ls/video-meta",
+	"version": "0.1.0",
+	"title": "Lasaphire Video Meta",
+	"category": "la-saphire",
+	"description": "La Saphire Video MetaBox input Feild.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "lasaphire-courses-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,20 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/courses-list/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ls-courses-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.wp-block-ls-courses-list li {
+  list-style: none;
+}
+.wp-block-ls-courses-list.is-grid {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

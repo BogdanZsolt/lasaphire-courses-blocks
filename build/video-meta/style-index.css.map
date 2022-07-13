@@ -1,0 +1,1 @@
+{"version":3,"file":"video-meta/style-index.css","mappings":";;;AACA;EACC;EACA;EACA;AAAD,C","sources":["webpack://lasaphire-courses-blocks/./src/video-meta/style.scss"],"sourcesContent":["\n.wp-block-create-block-lasaphire-courses-blocks {\n\tbackground-color: #21759b;\n\tcolor: #fff;\n\tpadding: 2px;\n}\n"],"names":[],"sourceRoot":""}
